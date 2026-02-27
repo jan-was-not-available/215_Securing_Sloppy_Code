@@ -12,7 +12,7 @@ print()         # Skip Line
 if not isdigit(pwd):
     print("That's not even a number")
 
-if int(pwd) == 333:  # Check authentication
+if (pwd) == 333:  # Check authentication
     print("Success! Opening RESTRICTED APP...")
 else:
     print("That's the wrong number.")
